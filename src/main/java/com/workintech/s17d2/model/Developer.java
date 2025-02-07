@@ -1,5 +1,8 @@
 package com.workintech.s17d2.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Developer {
     private int id;
     private String name;

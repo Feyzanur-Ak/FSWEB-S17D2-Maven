@@ -1,4 +1,13 @@
 package com.workintech.s17d2.tax;
 
-public class Taxable {
+import org.springframework.stereotype.Component;
+
+@Component
+public interface Taxable {
+
+    double getSimpleTaxRate();
+    double getMiddleTaxRate();
+    double getUpperTaxRate();
+
+
 }
