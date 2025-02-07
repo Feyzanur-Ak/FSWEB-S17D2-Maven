@@ -1,10 +1,9 @@
 package com.workintech.s17d2.model;
 
-import org.springframework.stereotype.Component;
+public class SeniorDeveloper extends Developer
+{
 
-@Component
-public class SeniorDeveloper extends  Developer{
-    public SeniorDeveloper(int id, String name, Double salary, Experience experience) {
+    public SeniorDeveloper(int id, String name, Double salary) {
         super(id, name, salary, Experience.SENIOR);
     }
 }

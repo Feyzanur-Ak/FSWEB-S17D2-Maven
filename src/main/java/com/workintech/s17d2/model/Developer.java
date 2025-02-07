@@ -1,14 +1,12 @@
 package com.workintech.s17d2.model;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Developer {
+
     private int id;
     private String name;
-    private  Double salary;
-    private  Experience experience;
+    private Double salary;
 
+    private Experience experience;
 
     public Developer(int id, String name, Double salary, Experience experience) {
         this.id = id;
